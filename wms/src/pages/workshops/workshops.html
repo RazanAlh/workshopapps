@@ -1,0 +1,33 @@
+
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Workshops</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding class="card-background-page">
+  <div *ngIf="workshops">
+      <ion-grid>
+       <ion-row>
+         <ion-col col-12 col-lg-4 *ngFor="let workshop of workshops">
+           <ion-card class="paddingall">
+             <img src="{{workshop.image}}" />
+             <h1>{{ workshop.name }}</h1>
+             <p>{{ workshop.startdate }} </p>
+             <p>{{ workshop.description }}</p>
+             <ion-item>
+              <button item-end ion-button color="secondary" (click)="makeSurveys(workshop.id)"> Make Surveys </button>
+             </ion-item>
+           </ion-card>
+         </ion-col>
+       </ion-row>
+     </ion-grid>  
+     </div>
+     <div [hidden]="workshops || errMess">
+       <ion-spinner></ion-spinner>
+       <h4>Loading . . . Please Wait</h4>
+     </div>
+     <div *ngIf="errMess">
+       <h2>Error</h2>
+       <h4>{{errMess}}</h4>
+     </div>
+</ion-content>

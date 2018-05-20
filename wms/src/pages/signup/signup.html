@@ -1,0 +1,44 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Signup</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form [formGroup]="signupform" (ngSubmit)="onSubmit()">
+
+    <ion-item>
+      <ion-label floating>Your Name * </ion-label>
+      <ion-input formControlName="name" type="text" [ngClass]="{'error-border':!signupform.controls['name'].valid}"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Password * </ion-label>
+      <ion-input formControlName="password" type="password" [ngClass]="{'error-border':!signupform.controls['password'].valid}"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Email * </ion-label>
+      <ion-input formControlName="email" type="text" [ngClass]="{'error-border':!signupform.controls['email'].valid}"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Mobile *</ion-label>
+      <ion-input formControlName="mobile" type="text" [ngClass]="{'error-border':!signupform.controls['mobile'].valid}"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Work place* </ion-label>
+      <ion-input formControlName="workplace" type="text"  [ngClass]="{'error-border':!signupform.controls['workplace'].valid}"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button color="secondary" type="submit" [disabled]="!signupform.valid"> Sign up </button>
+      <button ion-button color="light" (click)="reset()"> Clear </button>
+    </ion-item>
+
+  </form>
+</ion-content>

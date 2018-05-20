@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar  color="primary"  >
+    <ion-title >displaysurvey</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-list *ngIf="survey">
+      <ion-item>
+          <h1>WorkshopSurveys</h1>
+          <h1>{{survey.title}}</h1>
+          <p> {{survey.notes}}</p>
+      </ion-item>
+      <ion-item *ngFor="let question of survey.questions">
+      <ion-label> {{question.id}} - {{question.question}}</ion-label>
+      <ion-select (ionChange)="addquestion($event, question.id)">
+          <ion-option *ngFor="let result of results" [value]="result.id">{{result.degree}}</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+        <button ion-button color="secondary" (click)="saveAll()" > Save Survey </button>
+      </ion-item>
+  </ion-list>
+</ion-content>

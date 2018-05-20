@@ -1,0 +1,253 @@
+{
+  "users": [
+    {
+      "username": "razan alhaji",
+      "password": "razan123456",
+      "email": "razan@abegs.org",
+      "mobile": "999999999999999",
+      "workplace": "abegs.org",
+      "id": 1
+    },
+    {
+      "name": "Ibrahim ",
+      "password": "123456789",
+      "email": "a@a.a",
+      "mobile": "9667788990987",
+      "workplace": "wwwwwwwww",
+      "id": 2
+    },
+    {
+      "name": "mmmm",
+      "password": "123456789",
+      "email": "aa@aa.aa",
+      "mobile": "96656545678",
+      "workplace": "test 123",
+      "id": 3
+    },
+    {
+      "name": "Razan",
+      "password": "12345678",
+      "email": "Razan.h@abegs.org",
+      "mobile": "0554253934",
+      "workplace": "ABEGS",
+      "id": 4
+    },
+    {
+      "name": "Razan",
+      "password": "12345678",
+      "email": "Razan.h@abegs.org",
+      "mobile": "0554253934",
+      "workplace": "ABEGS",
+      "id": 5
+    }
+  ],
+  "profiles": [
+    {
+      "id": 0,
+      "userid": 1,
+      "workshops": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "surveys": [
+        1,
+        2
+      ],
+      "certificates": [
+        1,
+        2
+      ]
+    }
+  ],
+  "workshops": [
+    {
+      "id": 1,
+      "name": "Training Course in Mascut on Ideological Deviation",
+      "startdate": "25 February 2018",
+      "enddate": "27 February 2018",
+      "trainer": "Ideological",
+      "place": "Sultanate of Oman.",
+      "image": "https://www.abegs.org/aportal/rpc/download/AMIfv96I2P_QnK6UJSz9ZR_Ue1bBQpZPca8-bj9mJ1iQT_KGgAkkDx90NjjC1__OoZyL02bFoW-7h8yrTV8JJN7SOq7fiPI98OCqbUNueV9BBpiraurpOxBnI1zMWbKp2CkK0yFqPykHCvCfAQXxVjl-ZY8jcAaHwA",
+      "description": "In the framework of the activities of the Arab Bureau of Education for the Gulf States (ABEGS) and its programs to strengthen the role of families in education, the Bureau is organizing a three-day training course entitled  Ideological Immunization Skills in cooperation with the Ministry of Education in Sultanate of Oman.",
+      "future": "false"
+    },
+    {
+      "id": 2,
+      "name": "Training Course in Mascut on Ideological Deviation",
+      "startdate": "20 February 2018",
+      "enddate": "22 February 2018",
+      "trainer": "Ideological",
+      "place": "Sultanate of Oman.",
+      "image": "https://www.abegs.org/aportal/rpc/download/AMIfv96I2P_QnK6UJSz9ZR_Ue1bBQpZPca8-bj9mJ1iQT_KGgAkkDx90NjjC1__OoZyL02bFoW-7h8yrTV8JJN7SOq7fiPI98OCqbUNueV9BBpiraurpOxBnI1zMWbKp2CkK0yFqPykHCvCfAQXxVjl-ZY8jcAaHwA",
+      "description": "In the framework of the activities of the Arab Bureau of Education for the Gulf States (ABEGS) and its programs to strengthen the role of families in education, the Bureau is organizing a three-day training course entitled  Ideological Immunization Skills in cooperation with the Ministry of Education in Sultanate of Oman.",
+      "future": "false"
+    },
+    {
+      "id": 3,
+      "name": "Training Course in Mascut on Ideological Deviation",
+      "startdate": "13 February 2018",
+      "enddate": "15 February 2018",
+      "trainer": "Ideological",
+      "place": "Sultanate of Oman.",
+      "image": "https://www.abegs.org/aportal/rpc/download/AMIfv96I2P_QnK6UJSz9ZR_Ue1bBQpZPca8-bj9mJ1iQT_KGgAkkDx90NjjC1__OoZyL02bFoW-7h8yrTV8JJN7SOq7fiPI98OCqbUNueV9BBpiraurpOxBnI1zMWbKp2CkK0yFqPykHCvCfAQXxVjl-ZY8jcAaHwA",
+      "description": "In the framework of the activities of the Arab Bureau of Education for the Gulf States (ABEGS) and its programs to strengthen the role of families in education, the Bureau is organizing a three-day training course entitled  Ideological Immunization Skills in cooperation with the Ministry of Education in Sultanate of Oman.",
+      "future": "false"
+    },
+    {
+      "id": 4,
+      "name": "Training Course in Mascut on Ideological Deviation",
+      "startdate": "20 February 2018",
+      "enddate": "22 February 2018",
+      "trainer": "Ideological",
+      "place": "Sultanate of Oman.",
+      "image": "https://www.abegs.org/aportal/rpc/download/AMIfv96I2P_QnK6UJSz9ZR_Ue1bBQpZPca8-bj9mJ1iQT_KGgAkkDx90NjjC1__OoZyL02bFoW-7h8yrTV8JJN7SOq7fiPI98OCqbUNueV9BBpiraurpOxBnI1zMWbKp2CkK0yFqPykHCvCfAQXxVjl-ZY8jcAaHwA",
+      "description": "In the framework of the activities of the Arab Bureau of Education for the Gulf States (ABEGS) and its programs to strengthen the role of families in education, the Bureau is organizing a three-day training course entitled  Ideological Immunization Skills in cooperation with the Ministry of Education in Sultanate of Oman.",
+      "future": "true"
+    },
+    {
+      "id": 5,
+      "name": "ABEGS participates in 5th Islamic Conference of Ministers in Charge of Childhood",
+      "trainer": "H. E. Director-General of the Arab Bureau",
+      "startdate": "2018-03-10",
+      "enddate": "2018-03-13",
+      "place": "Scientific and Cultural Organization (ISESCO)",
+      "image": "https://www.abegs.org/aportal/rpc/download/AMIfv977I-2BkyHi1Cj9azLt7sF8UvxevRFITf1H7poOaG2kw3XzStNsKfYYOogXuyXBL2NxP1Wk9WoDdvBs_EJjIa-EMr08OKxAzfLZqj1e6o45HZftXShAwqaprytbZO3JhXPQmc_atCAABD4CM7zKQ5bCs7CHbA",
+      "description": "H. E. Director-General of the Arab Bureau of Education for the Gulf States Dr. Ali Al karni participated in the 5th Islamic Conference of Ministers in Charge of Childhood “Towards a Safe Childhood“ held by the Islamic Educational, Scientific and Cultural Organization (ISESCO) on 21-22 February 2018 in Rabat, Morocco to explore measures to ensure a better and safer childhood in the Islamic world..",
+      "future": "true"
+    }
+  ],
+  "surveys": [
+    {
+      "id": 0,
+      "workshopid": 1,
+      "title": "surveys1",
+      "notes": "notes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "question#1"
+        },
+        {
+          "id": 2,
+          "question": "question#2"
+        },
+        {
+          "id": 3,
+          "question": "question#3"
+        },
+        {
+          "question": "question#4",
+          "id": 4
+        },
+        {
+          "question": "question#5",
+          "id": 5
+        }
+      ]
+    },
+    {
+      "workshopid": 4,
+      "title": "Work shop Surveys num # 4",
+      "notes": "",
+      "questions": [
+        {
+          "question": "The instructor clearly presented the skills to be learned?",
+          "id": 1
+        },
+        {
+          "question": "The instructor provided help when you had difficulties?",
+          "id": 2
+        },
+        {
+          "question": "The workshop developed my ability to interact with diverse groups of people?",
+          "id": 3
+        },
+        {
+          "question": "The workshop gave to you a deeper insight into the topic?",
+          "id": 4
+        },
+        {
+          "question": "The workshop was effectively organized?",
+          "id": 5
+        }
+      ],
+      "id": 1
+    },
+    {
+      "workshopid": 9,
+      "title": "Work shop Surveys num # 9",
+      "notes": "",
+      "questions": [],
+      "id": 2
+    },
+    {
+      "workshopid": 5,
+      "title": "Work shop Surveys num # 5",
+      "notes": "",
+      "questions": [
+        {
+          "question": "The instructor clearly presented the skills to be learned?",
+          "id": 1
+        },
+        {
+          "question": "The instructor provided help when you had difficulties?",
+          "id": 2
+        },
+        {
+          "question": "The workshop developed my ability to interact with diverse groups of people?",
+          "id": 3
+        },
+        {
+          "question": "The workshop gave to you a deeper insight into the topic?",
+          "id": 4
+        },
+        {
+          "question": "The workshop was effectively organized?",
+          "id": 5
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "surveyresults": [
+    {
+      "surveyid": 1,
+      "userid": "1",
+      "results": [],
+      "id": 1
+    }
+  ],
+  "certificates": [
+    {
+      "id": 0,
+      "workshopid": 0,
+      "userid": 0,
+      "notes": "notes"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1
+    },
+    {
+      "firstname": "bbbbb",
+      "lastname": "bbbbbb",
+      "phonenumber": "55555555555",
+      "email": "aaaa@aaa.aaa",
+      "contact": "Phone",
+      "feedback": "aaaaaaaaaaaaaaaaa",
+      "id": 2
+    },
+    {
+      "firstname": null,
+      "lastname": null,
+      "phonenumber": null,
+      "email": null,
+      "contact": null,
+      "feedback": null,
+      "id": 3
+    }
+  ]
+}

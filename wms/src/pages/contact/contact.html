@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <form [formGroup]="contactform"  (ngSubmit)="onSubmit()">
+    <ion-item>
+      <ion-label floating>First Name*</ion-label>
+      <ion-input type="text" formControlName="firstname" [ngClass]="{'error-border':!contactform.controls['firstname'].valid}"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Last Name*</ion-label>
+      <ion-input type="text" formControlName="lastname" [ngClass]="{'error-border':!contactform.controls['lastname'].valid}"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Phone Number*</ion-label>
+      <ion-input type="text" formControlName="phonenumber" [ngClass]="{'error-border':!contactform.controls['phonenumber'].valid}"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Email*</ion-label>
+      <ion-input type="text" formControlName="email" [ngClass]="{'error-border':!contactform.controls['email'].valid}"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>How?*</ion-label>
+      <ion-select formControlName="contact" [ngClass]="{'error-border':!contactform.controls['contact'].valid}">
+        <ion-option value="Phone">Phone</ion-option>
+        <ion-option value="Email">Email</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Your Feedback</ion-label>
+      <ion-input type="text" formControlName="feedback" [ngClass]="{'error-border':!contactform.controls['feedback'].valid}"></ion-input>
+    </ion-item>
+    <ion-item>
+      <button ion-button color="secondary" type="submit" [disabled]="!contactform.valid"> Submit </button>
+      <button ion-button color="light" (click)="reset()"> Clear </button>
+    </ion-item>
+  </form>
+</ion-content>

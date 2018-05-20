@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar  color="primary"  >
+    <ion-title>profiles</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+
+  <ion-list *ngIf="workshops">
+    <ion-list-header>
+     <h1> Our Workshops </h1>
+    </ion-list-header>
+    <ion-item *ngFor="let workshop of workshops">
+      <p>{{ workshop.name }} - {{ workshop.startdate }}</p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list *ngIf="certificates">
+    <ion-list-header>
+      <h1>Our Certificates</h1>
+    </ion-list-header>
+    <button ion-item *ngFor="let certificate of certificates" (click)="certificateSelected(certificate)">
+        {{ certificate.name }} - {{ certificate.startdate }}
+    </button>
+  </ion-list>
+
+</ion-content>

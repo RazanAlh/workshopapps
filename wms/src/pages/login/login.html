@@ -1,0 +1,29 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form [formGroup]="signinform" (ngSubmit)="onSubmit()">
+
+    <ion-item>
+      <ion-label floating>User Email * </ion-label>
+      <ion-input formControlName="email" type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Password * </ion-label>
+      <ion-input formControlName="password" type="password"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button color="secondary" type="submit" [disabled]="!signinform.valid"> LogIn </button>
+      <button ion-button color="light" (click)="signform()"> Sign up </button>
+    </ion-item>
+
+  </form>
+</ion-content>
